@@ -1,5 +1,8 @@
-mail1=peratchi84@gmail.com
-num1 = +918220030832
-mail2 = peratchiselvank@gmail.com
+mail1 = peratchi@gmail.com
+num1 = +918220030567
+mail2 = peratchi2@gmail.com
 num2 = +919790307794
-num3 = +917418189531
+num3 = +917418189567
+
+
+Note:This all numbers and email's are just typed randomly.Its not a real one. For education purpose only.
