@@ -1,0 +1,5 @@
+mail1=peratchi84@gmail.com
+num1 = +918220030832
+mail2 = peratchiselvank@gmail.com
+num2 = +919790307794
+num3 = +917418189531
