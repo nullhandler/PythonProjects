@@ -6,7 +6,7 @@ import pyperclip
 
 #This function checks for number
 def listnum(data):
-    phonereg = re.compile(r'\+91\d\d\d\d\d\d\d\d\d\d')
+    phonereg = re.compile(r'\+91\d\d\d\d\d\d\d\d\d\d') #Scraps only India phone number
     numlist = phonereg.findall(data)
     return numlist
 
@@ -16,14 +16,14 @@ def listmail(data):
     maillist = mailreg.findall(data)
     return maillist
 
-text_in_clipboard = str(pyperclip.paste())
+text_in_clipboard = str(pyperclip.paste()) #Copy the text in clipboard
 numlist = listnum(text_in_clipboard)
 maillist = listmail(text_in_clipboard)
-print('The Mail IDs in the list are:')
 
+print('The Mail IDs in the list are:')
 for i in maillist:
-    print('* ' + i)
+    print('* ' + i) #Bullet points
 
 print('The Numbers in the list are:')
 for i in numlist:
-    print('* ' + i)
+    print('* ' + i) #Bullet points
