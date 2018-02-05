@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import requests
 
 csv_file = open("selvasoft.csv","w")
-reg_start = 720817104001 #Enter starting number
-reg_end = 720817104070 #Ending number
+reg_start = 952817104001 #Enter starting number
+reg_end = 952817104060 #Ending number
 url = "http://aucoe.annauniv.edu/cgi-bin/result/cgrade.pl?regno="
 
 def write_csv(list1):
